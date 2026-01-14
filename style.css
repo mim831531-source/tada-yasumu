@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+  background-color: #f4f6f3;
+  color: #333;
+  line-height: 1.8;
+}
+
+header {
+  padding: 250px 20px;
+	text-align: center;
+	
+  background-image: url("IMG_6749 2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  letter-spacing: 0.1em;
+}
+
+.subtitle {
+  margin-top: 16px;
+  font-size: 0.9rem;
+	color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+}
+
+section p {
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+ul {
+  margin: 20px 0 30px 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.note {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 32px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6b8f71;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #56755b;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 0.75rem;
+  color: #777;
+}
+.button.member {
+  display: block;
+  margin: 16px 0 0 0;
+}
